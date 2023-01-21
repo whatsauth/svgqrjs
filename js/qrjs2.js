@@ -878,6 +878,7 @@
 				"http://www.w3.org/2000/svg",
 				"svg"
 			);
+			e.setAttributeNS(null, "onclick", "qrcodeonclick()");
 			e.setAttributeNS(null, "viewBox", "0 0 " + size + " " + size);
 			e.setAttributeNS(null, "style", "shape-rendering:crispEdges");
 			var qrcodeId = "qrcode" + Date.now();
