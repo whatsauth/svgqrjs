@@ -852,7 +852,6 @@
 			e.setAttributeNS(null, "onclick", "svgqrjsonclick()");
 			e.setAttributeNS(null, "viewBox", "0 0 " + size + " " + size);
 			e.setAttributeNS(null, "style", "shape-rendering:crispEdges");
-			var qrcodeId = "qrcode" + Date.now();
 			e.setAttributeNS(null, "id", "svgqrjs");
 			var frag = document.createDocumentFragment();
 			/* var svg = ['<style scoped>.bg{fill:' + fillcolor + '}.fg{fill:' + textcolor + '}</style>', '<rect class="bg" x="0" y="0"', 'width="' + size + '" height="' + size + '"/>', ]; */
